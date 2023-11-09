@@ -32,10 +32,12 @@ var input_select1 = $("#wa_select :selected").text(),
 
 /* Final Whatsapp URL */
 var blanter_whatsapp = walink + '?phone=' + phone + '&text=' + walink2 + '%0A%0A' +
-    '*Nama* : ' + input_name1 + '%0A' +
-    '*Email* : ' + input_email1 + '%0A' +
-    '*Paket* : ' + input_select1 + '%0A' +
-    '*No Telp* : ' + input_number1 + '%0A' +
+    '*Name* : ' + input_name1 + '%0A' +
+    '*Email Address* : ' + input_email1 + '%0A' +
+    '*Select Option* : ' + input_select1 + '%0A' +
+    '*Input Number* : ' + input_number1 + '%0A' +
+    '*URL/Link* : ' + input_url1 + '%0A' +
+    '*Description* : ' + input_textarea1 + '%0A';
 
 /* Whatsapp Window Open */
 window.open(blanter_whatsapp,'_blank');
