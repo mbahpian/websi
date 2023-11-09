@@ -1,3 +1,10 @@
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
 $(document).on('click','.send_form', function(){
 var input_blanter = document.getElementById('wa_email');
 
