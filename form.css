@@ -14,15 +14,14 @@
 
 /* The popup form - hidden by default */
 .form-popup {
-  display: none;
-  position: fixed;
-  right:0;
-  left:0;
-  bottom:0;
-  z-index: 9;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
 }
 
 /* Add styles to the form container */
